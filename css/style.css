@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+.allign center{
+    align-items: center;
+}
+body{
+    font-size: 16px;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-section{
+    padding: 30px 0;
+    background-color: #fcdb00;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;   
+}
+.logo{
+    flex-basis: 20%;
+    max-width: 20%;
+}
+nav{
+    flex-basis: 80%;
+    max-width: 80%;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color: #010101;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    padding: 0px 15px;
+    display: block;  
+}
+.slider-content{
+    max-width: 60%;
+    flex-basis: 60%;
+    padding-right: 70px;
+    padding-top: 50px;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.slider-content h1{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.slider-content h3{
+    font-size: 22px;
+    color: #444;
+    font-weight:100; 
+    margin: 10px 0;
+}
+.slider-content p{
+    font-size: 18px;
+    color: #555;
+}
+ul.brand-list{
+    display: flex;
+    flex-wrap: wrap; 
+}
+ul.brand-list li{
+    font-size: 50px;
+    padding: 10px 20px 0 0;
+}
+.slider-img{
+    max-width: 40%;
+    flex-basis: 40%;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+ul.bullet-list{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+ul.bullet-list li{
+    list-style: none;
+    padding: 4px;
+}
+ul.bullet-list a{
+    display: block;
+    width: 15px;
+    height: 15px;
+    background: #ffffffa3;
+    border-radius: 50%;
+}
+ul.bullet-list a:hover{
+    background: #fff;
+}
+.features-section{
+    padding: 100px 0;
+}
+.header{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.header h1{
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.header p{
+    font-size: 22px;
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+.col{
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    padding: 15px;
+}
+.feature-icon{
+    flex-basis: 20%;
+    max-width: 20%;
+    font-size: 35px;
+}
+.feature-content{
+    flex-basis: 80%;
+    max-width: 80%;
+    text-align: justify;
+    text-transform: capitalize;
+}
+.feature-content h2{
+    color: #000;
+    font-weight: 600;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.feature-contentt p{
+    color: #969696;
+    font-size: 18px;
+}
+.footer-section{
+    padding: 100px 0 50px;
+    background: #000;
+}
+.subscription-form{
+    text-align: center;
+}
+.subscription-form h1{
+    font-size: 35px;
+    color: #FCDB00;
+    text-transform: capitalize;
+}
+.subscription-form p{
+    color: #ababab;
+    font-size: 22px;
+    max-width: 800px;
+    margin: auto;
+}
+form{
+    padding: 50px 0;
+    max-width:800px;
+    margin: auto;
+}
+form .input{
+    flex-basis: 80%;
+    max-width: 80%;
+    padding: 0 5px;
+}
+form .input input{
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+}
+form .submit{
+    flex-basis: 20%;
+    max-width: 20%;
+    padding: 0 5px;
+}
+form .submit input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: #FCDB00;
+}
+form .submit input:hover{
+    background-color: transparent;
+    border: 1px solid #fcdb00;
+    color: #fcdb00;
+}
+.social-link{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.social-link li{
+    list-style: none;
+    padding: 5px;
+}
+.social-link li a{
+    background: #fcdb00;
+    color: #000;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    line-height: 40px;
+}
+.address{
+    max-width: 30%;
+    flex-basis: 30%;
+}
+.address address{
+    color: #ffffffba;
+    font-style: initial;
+    font-size: 20px;
+}
+.footer-col{
+    max-width: 100%;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+.footer-col ul li{
+    list-style: none;
+}
+.footer-col ul li a{
+    color: #ffffff87;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer-col ul li a:hover{
+    color: #fcdb00;
+}
